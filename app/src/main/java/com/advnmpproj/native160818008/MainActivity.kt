@@ -6,7 +6,8 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        val name = "Wadidaw221"
+        var name = "Wadidaw221"
+        var phone = "081524844"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
